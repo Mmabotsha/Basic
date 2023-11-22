@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0130)https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/001/881/864/original/Financial_security.html?1696661238 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial security</title>
+    <style>
+        h1 {
+            text-align: center;
+            color:springgreen ;
+            border: 1px solid springgreen;
+            font-size: 38px;
+            padding: 4px;
+            border-radius: 4px
+            
+
+        }
+        h2{
+            text-align:center ;
+        }
+        img {
+           margin: 0 auto;
+           display: block;
+           max-width: 90%;
+           border-radius: 5%;
+        }
+        
+         .info {
+            margin-top: 4%;
+            color:springgreen ;
+            text-decoration: underline;
+            font-size: 13px;
+           
+         }
+         .container {
+            margin:0 auto;
+            font-weight: lighter;
+            max-width: 950px;
+            font-family:Arial, sans-serif;
+            background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+            line-height: 1.5;
+            padding: 15px 60px
+         }
+        .fold{
+            text-align: center;
+        }
+         button{
+            border:none;
+            border-radius: 30px;
+            box-shadow: 2px 2px 2px greenyellow;
+            display: block;
+            font-size: 16px;
+            color: white;
+            background: springgreen;
+            padding: 15px 20px;
+            transition: all 200ms ease-in-out;
+            margin: 30px auto;
+            text-decoration: none;
+
+         }
+         button:hover{
+            color:black;
+            background:greenyellow;
+            cursor: pointer;
+          }
+          
+         
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <h1>
+        I am dedicated to financial security
+    </h1>
+    <h2>
+        Living a debt-free life is a goal that I aspire to achieve
+    </h2>
+    <img src="./Financial security_files/pexels-photo-732444.jpeg" alt=" savings tracker">
+    <br>
+    <p>
+       <em> <strong>Financial security</strong></em> is a state of well-being that comes down to being able to afford your expenses without stress. In other words, when you're financially secure, you don't experience consant worry about money. In practical terms, financial security looks like spending less than you earn, having ample money in savings to cover emergencies, having a healthy relationship with debt and feeling in control of your...
+     <a href="https://www.experian.com/blogs/ask-experian/what-is-financial-security/" target="_blank" class="info">
+        <strong>experian</strong>
+     </a>
+      </p> 
+
+      <button class="startButton">
+        Start small,but start now🤑
+    </button>
+    <hr>
+     <p class="fold">
+        This page was built by <span style="font-size: larger;"> Meso Mmabotsha </span>
+     </p>
+     <hr>
+     </div>
+     <script>
+        function startNow() {
+            let name = prompt("What is your name?");
+            let email = prompt("What is your email address?");
+
+            // Regular expression for email validation
+            let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+           if (emailRegex.test(email)) {
+             // Valid email address
+            alert("Thank you" + " " + name + "! You are one step ahead to living a debt-free life. We'll be in touch by email.");
+            } else {
+              // Invalid email address
+               alert("Sorry" + " " + name + "! Invalid email address");
+            }
+
+            
+        }
+        let startNowButton = document.querySelector(".startButton");
+        startNowButton.addEventListener("click",startNow)
+     </script>
+
+</body></html>
